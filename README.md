@@ -15,7 +15,11 @@ contact_amount = myWeclapp.contact.count()
 
 new_contact = myWeclapp.contact.create(lastName="Bar", firstName="Foo")
 
-updated_contact myWeclapp.contact.create(res_id="123", lastName="BarBar", firstName="FooFoo")
+updated_contact = myWeclapp.contact.create(res_id="123", lastName="BarBar", firstName="FooFoo")
+
+print("%s: %s %s" % (updated_contact["id"], 
+                     updated_contact["firstName"], 
+                     updated_contact["lastName"]))
 
 myWeclapp.contact.delete(res_id="123")
 ~~~~
