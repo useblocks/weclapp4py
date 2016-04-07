@@ -5,9 +5,10 @@ Abstracts the weclapp api as python lib
 You need a weclapp account (https://weclapp.com) and a valid weclapp api key/token.
 
 ## Initialization
+~~~~
 from weclapp4py import Weclapp
-
 myWeclapp = Weclapp("MyCompany", "MyApiKey")
+~~~~
 
 ## Usage
 ~~~~
