@@ -31,3 +31,11 @@ The functions **create** and **update** takes every keyword argument, which is g
 ~~~~
 myWeclapp.contact.create(lastName="Bar", ownArguement="my_stuff")
 ~~~~
+
+## Example and test run
+There is an **example.py** file, which can be executed by:
+~~~~
+python3 example.py
+~~~~
+It will ask for your company and apikey. After that it will perform some API actions and shows you the results.
+
