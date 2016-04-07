@@ -1,7 +1,10 @@
 # weclapp4py
 Abstracts the weclapp api as python lib
 
-# Initialization
+## Prerequirements
+You need a weclapp account (weclapp.com) and a valid weclapp api key/token.
+
+## Initialization
 from weclapp4py import Weclapp
 
 myWeclapp = Weclapp("MyCompany", "MyApiKey")
@@ -39,3 +42,5 @@ python3 example.py
 ~~~~
 It will ask for your company and apikey. After that it will perform some API actions and shows you the results.
 
+## Further documentation
+Official weclapp API documentation: https://www.weclapp.com/api/
