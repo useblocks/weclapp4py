@@ -2,7 +2,7 @@
 Abstracts the weclapp api as python lib
 
 ## Prerequirements
-You need a weclapp account (weclapp.com) and a valid weclapp api key/token.
+You need a weclapp account (https://weclapp.com) and a valid weclapp api key/token.
 
 ## Initialization
 from weclapp4py import Weclapp
